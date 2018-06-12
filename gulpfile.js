@@ -10,7 +10,6 @@ const minifyCSS = require('gulp-csso');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const source = require('vinyl-source-stream');
-
 const sync = require('browser-sync').create();
 const uglify = require('gulp-uglify');
 
