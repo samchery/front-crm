@@ -1,0 +1,16 @@
+.nav-wrap {
+    &-before {
+        display: block;
+    }
+    &-after {
+        display: none;
+    }
+    &.nav-open {
+        .nav-wrap-before {
+            display: none;
+        }
+        .nav-wrap-after {
+            display: block;
+        }
+    }
+}
