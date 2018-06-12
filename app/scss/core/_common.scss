@@ -1,0 +1,72 @@
+$violet:#6D3EFF;
+$white:#FFF;
+$yellow:#FFE82B;
+$cta-color: #6C17C5; 
+$font:'Poppins', sans-serif;
+$font-logo: 'Righteous', cursive;
+$background: linear-gradient(-225deg, #6B17C4 0%, #181A63 100%);
+$background-o: -o-linear-gradient(-225deg, #6B17C4 0%, #181A63 100%);
+$medium-max: 1199px;
+$medium-min: 768px; 
+$mobile-max: 480px; 
+
+
+body {
+	font-family: $font;
+	@media (max-width: 480px){
+		padding-top: 10vh;
+	}
+}
+.container {
+    position: relative;
+}
+.h2 {
+	font-size: 50px; 
+	@media (max-width: 1199px){
+		font-size: 34px; 
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .hidden {
+        -webkit-transform:translateX(1600%);
+        transform:translateX(1600%);
+        transition:0.5s;
+    }
+}
+
+.burger-transform-1 {
+	-webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+
+.burger-transform-3 {
+	opacity: 0;
+}
+
+.burger-transform-2 {
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+	margin-top: -15px;
+}
+
+a {
+	text-decoration: none;
+	&:hover {
+		color: $cta-color;
+	}
+}
+
+.yellow-subtitle {
+	position: relative;
+	display: block;
+	&:after {
+		content: '';
+		position: absolute;
+		height: 4px;
+		background: $yellow;
+		box-shadow: 0 2px 40px 0 rgba(255,208,52,0.54);
+		border-radius: 8px;			
+		text-shadow: 0 2px 29px rgba(184,132,240,0.27);
+	}
+}
