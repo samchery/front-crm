@@ -1,0 +1,71 @@
+.client {
+    text-align: center;
+
+    &_descr {
+        border: 1px solid red; 
+        margin: 20px 0;
+    }
+    
+    &_progress {
+        border: 1px solid blue; 
+        margin: 20px 0;
+        &-bill--state {
+            &:before {
+                content: '';
+                display: inline-block;
+                height: 10px; 
+                width: 10px;
+                margin-right: 10px;
+                background-color: red; 
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            &.bill-paid {
+                &:before {
+                    background-color: green;
+                }
+            }
+        }
+    }
+
+    &_overview {
+        border: 1px solid green; 
+        margin: 20px 0;
+        &-year {
+            max-height: 30px; // à ajuster
+            overflow: hidden;
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+        }
+        .h3 {
+            &:after {
+                content:'';
+                display: inline-block;
+                width: 10px; 
+                height: 10px; 
+                margin-left: 15px;
+                transform: rotate(-45deg);
+                transition: transform .5s ease-in;
+                border-bottom: 1px solid purple;
+                border-left: 1px solid purple;
+            }
+        }
+        .accordeon-on {
+            max-height: 300px; // à ajuster ?!
+            .h3:after {
+                transform: rotate(135deg);
+            }
+        }
+    }
+
+    &_download {
+        &-add {
+            text-transform: uppercase; 
+        }
+        &-list {
+            display: flex; 
+            justify-content: space-between;
+            
+        }
+    }
+}

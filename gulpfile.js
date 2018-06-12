@@ -97,7 +97,6 @@ gulp.task('default', gulp.parallel(html, scss, js, images, fonts, function(done)
   gulp.watch('app/**/*.html', html);
   gulp.watch('app/**/*.scss', scss);
   gulp.watch('app/**/*.js', js);
-  gulp.watch('app/**/*.html', html);
 
   done();
 }));
