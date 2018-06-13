@@ -13,21 +13,43 @@ $beige: #a7a37e;
 
 body {
 	font-family: 'Asap', sans-serif;
+<<<<<<< HEAD
 	font-size: 15px;
 }
 
 .container {
 	padding: 0 20px;
+=======
+	font-size: 15px;	
+	background: #f8f8f6;
+	color: #92aa9d;
+}
+.container {
+	margin: 0 20px;
+>>>>>>> 0bb56e014da54052b8b3778291f07a9f396bf877
 }
 
 h2, h3, .h2, .h3 {
 	font-weight: 700;
+	padding-bottom: 5px;
+	color: #3f606f;
 }
 
 .arrow-back {
 	position : absolute;
 	top: 8px;
 	left: 8px;
+	transform: rotate(90deg);
+}
+
+li {
+	list-style: none;
+}
+
+.plus-add {
+	position: absolute;
+	top: 12px;
+	right: 17px;
 }
 
 .btn {
