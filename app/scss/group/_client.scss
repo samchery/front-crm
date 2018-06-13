@@ -62,7 +62,10 @@
             transition: all .5s ease-in-out;
             cursor: pointer;
         }
-        .h3 {
+        .h1 {
+            font-size: 30px; 
+            font-weight: 700; 
+            color: $blue;
             &:after {
                 content:'';
                 display: inline-block;
@@ -98,16 +101,37 @@
 .both_progress-work {
     position: relative;
     width: 50%; 
-    margin: 0 auto;
-    border-left: 3px solid pink;
+    margin: 30px auto;
+    // border-left: 3px solid pink;
+    .h3 {
+        font-size: 18px; 
+        color: $blue;
+        font-weight: 500;
+    }
+    li {
+        padding: 0 0 10px 25px;
+        text-align: left;
+        border-left: 5px solid $green-light;
+        &:last-child {
+            border-left: none;
+            &:before {
+                background-color: $grey;
+            }
+        }
+        p {
+            font-size: 15px; 
+            color: $grey;
+        }
+    }
     li:before {
         position: absolute;
         left: 0; 
         content: ''; 
         display: inline-block;
-        width: 10px;
-        height: 10px; 
-        transform: translateX(-65%);
-        background-color: pink;
+        width: 22px;
+        height: 22px; 
+        transform: translateX(-40%);
+        border-radius: 50%; 
+        background-color: $green-light;
     }
 }
