@@ -70,3 +70,39 @@
         }
     }
 }
+
+//page details (page 2)
+
+.nav {
+    position: absolute;
+    right: 25px;
+    top: 11px;
+    a {
+        color: #9b9b9b;
+    }
+    
+}
+
+.user_details {
+    margin-top: 115px;
+    &-logo {
+        position: absolute;
+        left: 15px;
+        top: 28px;
+        width: 70px;
+        height: 70px;
+        background:#9b9b9b;
+        border-radius: 50%;
+    }
+    &-name {
+        position: absolute;
+        left: 95px;
+        top: 40px;
+        font-size: 18px;
+    }
+    &-firme {
+        position: absolute;
+        top: 65px;
+        left: 95px;
+    }
+}
