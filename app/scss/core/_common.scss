@@ -6,13 +6,17 @@ a, a:hover, a:visited, a:focus {
 }
 
 $blue: #3f606f; 
+$blue-light: #92aa9d;
 $grey: #d8d8d8;
 $green-light: #79bc8e;
-
+$beige: #a7a37e;
 
 body {
 	font-family: 'Asap', sans-serif;
 	font-size: 15px;
+}
+
+.container {
 	padding: 0 20px;
 }
 
@@ -24,5 +28,17 @@ h2, h3, .h2, .h3 {
 	position : absolute;
 	top: 8px;
 	left: 8px;
+}
+
+.btn {
+	display: block;
+	width: 130px;
+	border: 1px solid $beige;
+	color: $beige;
+	font-size: 18px; 
+	padding: 10px 28px; 
+	margin: 18px auto;
+	cursor: pointer;
+	background-color: #FFF;
 }
 
