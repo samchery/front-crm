@@ -104,5 +104,24 @@
         position: absolute;
         top: 65px;
         left: 95px;
+        color: #92aa9d;
     }
+    &-infos {
+        padding: 5px 0;
+        border-bottom: 0.5px solid #939393;
+        color: #92aa9d;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &-projets {
+        margin-top: 30px;
+        font-size: 18px;
+        &--list-projects {
+            
+        }
+    }
+    &-humeur {
+        font-size: 18px;
+    }
+
 }

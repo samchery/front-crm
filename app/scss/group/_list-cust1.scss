@@ -1,0 +1,23 @@
+.list_cust {
+    margin-top: 50px;
+    &-project {
+        position: relative; 
+        border-bottom: 0.5px solid #d8d8d8;
+        padding: 12px 0;
+        h3 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    &-smiley {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        img {
+            width: 20px;
+        }
+        
+    }
+}
