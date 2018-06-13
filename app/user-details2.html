@@ -9,9 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
         <title>CRM - CLIENT</title>
     </head>
-    <body>
-    <div class="container">
-    
+    <body>    
     <nav class="nav">
         <div class="nav-wrap">
             <a href="#" class="nav-wrap-before">Editer</a>
@@ -33,28 +31,30 @@
             </div>
             <div class="user_details-firme">
                 <p>Entreprise</p>
+            </div>         
+        </div>
+        <div class="user_details">
+            <div class="user_details-wrap">
+                <div class="user_details-infos">
+                    <h3>Mail :</h3>
+                    <div>John SMITH@sfr.fr</div>
+                </div>
+                <div class="user_details-infos">
+                    <h3>Mobile :</h3>
+                    <div>0605224685</div>
+                </div>
+                <div class="user_details-infos">
+                    <h3>Adresse :</h3>
+                    <div>1 rue des chemins 57250 ALLEE DES EMBRUNES</div>
+                </div>
             </div>
             
         </div>
-        <div class="user_details">
-            <div class="user_details-infos">
-                <h3>Mail :</h3>
-                <div>John SMITH@sfr.fr</div>
-            </div>
-            <div class="user_details-infos">
-                <h3>Mobile :</h3>
-                <div>0605224685</div>
-            </div>
-            <div class="user_details-infos">
-                <h3>Adresse :</h3>
-                <div>1 rue des chemins 57250 VALLEE DES EMBRUNES</div>
-            </div>
-        </div>
-        <div class="user_details-projets">
-        <div class="user_details-project--title">
+        <div class="user_details-projects">
+        <div class="user_details-projects--title">
             <h2>Projets attribués</h2>
         </div>
-        <div class="user_details-project--list-projects">
+        <div class="user_details-projects--list-projects">
             <li>Refonte HETIC : <span> In progress</span></li>
             <li>Album Feder : <span>Done</span></li>
         </div>
@@ -66,13 +66,13 @@
                 </div>
                 <div class="user_details-humeur--emoji">
                     <div class="user_details-humeur--emoji-edit">
-                        <img src="" alt="">
+                        <img src="img/frown.png" alt="">
                     </div>
                     <div class="user_details-humeur--emoji-edit">
-                        <img src="" alt="">
+                        <img src="img/neutral.png" alt="">
                     </div>
                     <div class="user_details-humeur--emoji-edit">
-                        <img src="" alt="">
+                        <img src="img/happy.png" alt="" class="active">
                     </div>
                 </div>
             </div>
@@ -80,26 +80,24 @@
                 <div class="user_details-humeur--title">
                     <h2>Budget moyen</h2> 
                 </div>
-                <div class="user_details-humeur--cusor">
-                    <input type="range" name="" id="">
-                    <div id='bourse'>
-                        <img src="" alt="">
-                    </div>
+                <div class="user_details-humeur--cursor">
+                    <img src="img/BarreProgressBudget.svg" alt="">
+                    <img src="img/money.png" alt="" class="money">
                 </div>
             </div>
             <div class="user_details-humeur--wrapper">
                 <div class="user_details-humeur--title">
                     <h2>Négociation statut</h2> 
                 </div>
-                <div class="user_details-humeur--cusor">
-                    <input type="range" name="" id="">
-                    <div id='moon'>
-                        <img src="" alt="">
-                    </div>
+                <div class="user_details-humeur--cursor">
+                    <img src="img/BarreProgressNego.png" alt="">
+                    <img src="img/rocket.png" alt="" class="rocket">
                 </div>
             </div>
             <div class="user_details-humeur--wrapper">
-                <h2>Birthday</h2>
+                <div class="user_details-humeur--title">
+                    <h2>Birthday</h2> 
+                </div>
                 <div class="user_details-birthday">
                     <div>
                         15/03/1997 <span>soon</span>
@@ -116,8 +114,6 @@
 
     <footer class="footer">
     </footer>
-
-    </div>
 
     <script src="./js/script.js"></script>
 </body>
