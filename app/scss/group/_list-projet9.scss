@@ -1,0 +1,24 @@
+.list_project_free {
+    &-item {
+        padding: 12px 20px;
+        border-bottom: 1px solid $grey;
+        .h3 {
+            padding-bottom: 3px; 
+            font-size: 18px; 
+            color: $blue; 
+        }
+        p {
+            color: $green-light;
+            font-size: 16px; 
+        }
+        span {
+            color: $beige; 
+            font-size: 15px; 
+        }
+    }
+    &-progress {
+        padding-top: 3px; 
+        color: $red;
+        font-size: 15px; 
+    }
+}
