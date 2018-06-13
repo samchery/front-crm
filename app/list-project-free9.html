@@ -9,18 +9,22 @@
         <title>CRM.</title>
     </head>
     <body>
-        <section class="list_project_free container">
+        <section class="list_project_free">
             <div class="arrow-back">
                 <img src="" alt="">
             </div>
-            <div class="list_project_free-add">
-                +
+            <div class="plus-add">
+                <a href="">
+                    <img src="img/add.svg" alt="add">
+                </a>
             </div>
             <div class="list_project_free-wrap"> 
-                <h3>{% Nom du projet : %}</h3>
-                <p>porté par {% variable.name %}</p>
-                <div class="list_project_free-wrap">
-                    {% project.progress %}
+                <div class="list_project_free-item"> 
+                    <h3 class="h3">{% Nom du projet : %}</h3>
+                    <p>Porté par <span>{% variable.name %}</span></p>
+                    <div class="list_project_free-progress">
+                        {% project.progress %}
+                    </div>
                 </div>
             </div>
         </section>
