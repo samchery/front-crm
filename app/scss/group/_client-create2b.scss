@@ -18,8 +18,18 @@
             position: absolute;
             top: -8%;
             right: 30%; 
+            width: 0;
+            height: 0;
+        }
+        .input-img-label {
+            position: absolute;
+            top: -8%;
+            right: 30%; 
             width: 30px;
             height: 30px;
+            padding-left: 6px;
+            font-size: 26px;
+            color: $beige;
             border-radius: 50%;
             overflow: hidden;
             border: 2px solid $beige; 
