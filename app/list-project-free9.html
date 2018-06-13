@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Ma description">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+        <title>CRM.</title>
+    </head>
+    <body>
+        <section class="list_project_free">
+            <div class="arrow-back">
+                <img src="" alt="">
+            </div>
+            <div class="list_project_free-add">
+                +
+            </div>
+            <div class="list_project_free-wrap"> 
+                <h3>{% Nom du projet : %}</h3>
+                <p>porté par {% variable.name %}</p>
+                <div class="list_project_free-wrap">
+                    {% project.progress %}
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
