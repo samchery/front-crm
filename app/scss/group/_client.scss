@@ -3,13 +3,26 @@
 
     // client description intro
     &_descr {
-        border: 1px solid red; 
         margin: 20px 0;
+        .h2 {
+            font-size: 30px; 
+            color: $blue; 
+        }
+        p {
+            color: $green-light;
+            font-size: 16px;
+        }
+        span {
+            color: $beige;
+            font-size: 15px;
+        }
     }
     &_documents {
         display: flex; 
         justify-content: space-around;
+        padding-top: 23px; 
         a {
+            color: $beige;
             flex-basis: 50%; 
             flex-shrink: 0; 
             flex-grow: 0; 
@@ -25,7 +38,7 @@
                     height: 5px; 
                     border-radius: 50%;
                     transform: translateY(-50%);
-                    background-color: #000; 
+                    background-color: $blue; 
                 }
             }
         }
@@ -97,26 +110,7 @@
         }
     }
 
-    // page 2b : creation client 
-    // &_create {
-    //     margin: 50px 15px;
-    //     border-radius: 15px;
-    //     &-wrap {
-    //         padding: 20px;
-    //         border: 1px solid red; 
-    //     }
-    //     input {
-    //         width: 100%;
-    //         height: 30px; 
-    //         border-bottom: 1px solid $blue; 
-    //         margin-bottom: 10px; 
-    //         &::placeholder{ 
-    //             color: $blue-light;
-    //             font-size: 16px; 
-    //             line-height: 18px;
-    //         }
-    //     }
-    // }
+   
 }
 
 .both_progress-work {
