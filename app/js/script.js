@@ -2,6 +2,6 @@
 
 import "./modules/accordeon";
 
-
+import "./modules/nav.js";
 
 

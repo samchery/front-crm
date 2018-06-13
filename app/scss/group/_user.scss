@@ -1,0 +1,72 @@
+.nav-wrap {
+    &-before {
+        display: block;
+    }
+    &-after {
+        display: none;
+    }
+    &.nav-open {
+        .nav-wrap-before {
+            display: none;
+        }
+        .nav-wrap-after {
+            display: block;
+        }
+    }
+}
+
+// page 3 :
+.user {
+    // Etat du paiement des factures
+    &_progress {
+        border: 1px solid blue; 
+        margin: 20px 0;
+        &-bill--state {
+            display: flex; 
+            justify-content: space-between;
+            // &:before {
+            //     content: '';
+            //     display: inline-block;
+            //     height: 10px; 
+            //     width: 10px;
+            //     margin-right: 10px;
+            //     background-color: red; 
+            //     border-radius: 50%;
+            //     cursor: pointer;
+            // }
+            &.bill-paid {
+                &:before {
+                    background-color: green;
+                }
+            }
+        }
+        &-bill--switch {
+            display: flex; 
+            justify-content: flex-end;
+        } 
+    }
+
+    // Editer rappel des relances
+    &_remind-answer{
+        &--wrap {
+            display: flex; 
+            justify-content: center;
+        }
+        &--time {
+            span {
+                text-decoration: underline;
+            }
+        }
+    }
+    &_remind-bill{
+        &--wrap {
+            display: flex; 
+            justify-content: center;
+        }
+        &--time {
+            span {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -16,3 +16,14 @@ for (let i = 0; i < $bills.length; i++){
         this.classList.toggle('bill-paid');
     });
 }
+
+// switch button 
+var $switchs = document.querySelectorAll('.input_switch');
+var $onoff = document.querySelectorAll('.input_switch .slider');
+for (let i = 0; i < $switchs.length; i++){
+    $switchs[i].addEventListener('click', function(){
+        console.log(i);
+        console.log($onoff[i])
+        $onoff[i].classList.toggle('slider-off'); // not working
+    });
+}

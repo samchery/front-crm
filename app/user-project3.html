@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ma description">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+    <title>CRM.</title>
+  </head>
+  
+  <body>
+    <div class="container">
+        <nav class="nav"></nav>
+
+        <section class="client">
+            <!-- page 4  -->
+            <div class="client_descr">
+                <h2 class="client_name">Mon super projet</h2>
+                <p class="client_name-cust">de John Doe</p>
+                <div class="client_documents">
+                    <a href="#" class="client_documents-file">Voir les fichiers</a>
+                    <a href="#" class="client_documents-bill">Voir les factures</a>
+                </div>
+            </div>
+
+            <div class="user_progress">
+                <ul class="both_progress-work">
+                    <li>Idéation</li>
+                    <li>Wireframing</li>
+                    <!-- <a href="#">
+                        <li>+</li>
+                    </a> -->
+                </ul>
+                <div class="user_progress-bill">
+                    <!-- Etat du paiement des factures -->
+                    <div class="user_progress-bill--state">
+                        <p class="user_progress-bill--date">Factures juin 2018</p>
+                        <div class="user_progress-bill--switch">
+                            <p>Payé</p>
+                            <label class="input_switch">
+                                <input type="input_switch-checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        
+                    </div>
+                    <div class="user_progress-bill--state">
+                            <p class="user_progress-bill--date">Factures juillet 2018</p>
+                            <div class="user_progress-bill--switch">
+                                <p>Non-payé</p>
+                                <label class="input_switch">
+                                    <input type="input_switch-checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                    </div>
+
+                    <!-- Editer rappel des relances  -->
+                    <div class="user_remind">
+                        <div class="user_remind-bill">
+                            <h3 class="h3">Rappel de factures</h3>
+                            <input type="checkbox" />
+                            <label>1e relance envoyée le 21/10/18</label>
+                        </div>
+                        <div class="user_remind-answer">
+                            <h3 class="h3">Rappel inactivité</h3>
+                            <div class="user_remind-answer--wrap">
+                                <div class="user_remind-answer--time">Après <span>15 jours</span></div>
+                                <!-- Rounded switch -->
+                                <label class="input_switch">
+                                    <input type="input_switch-checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div><!-- fin page 4 -->
+            
+        </section>
+    
+        <footer class="footer"></footer>
+    </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

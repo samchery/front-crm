@@ -1,0 +1,24 @@
+<section class="addCust_wrapper">
+    <div class="addCust_wrapper-form">
+        <form method="post" action="/add-client" enctype="multipart/form-data">
+            <div>
+                <label for="lastname">Nom :</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div>
+                <label for="firstname">Prénom :</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div>
+                <label for="company">Société :</label>
+                <input type="text" name="company" id="company">
+            </div>
+
+            <div class="addCust_wrapper-logo">
+                <input type="file" name="file">
+            </div>
+
+            <input type="submit" value="Ajouter">
+        </form>
+    </div>
+</section>
