@@ -50,12 +50,12 @@
 // 	margin-top: -15px;
 // }
 
-// a {
-// 	text-decoration: none;
-// 	&:hover {
-// 		color: $cta-color;
-// 	}
-// }
+a, a:hover, a:visited, a:focus {
+	text-decoration: none;
+	&:hover {
+		color: inherit
+	}
+}
 
 // .yellow-subtitle {
 // 	position: relative;
