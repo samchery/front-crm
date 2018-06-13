@@ -75,16 +75,29 @@ body {
 	font-family: 'Asap', sans-serif;
 	font-size: 15px;
 	padding: 0 20px;
+	background: #f8f8f6;
+	color: #92aa9d;
 }
 h2, h3 {
 	font-weight: 700;
+	padding-bottom: 5px;
+	color: #3f606f;
 }
 
 .arrow-back {
 	position : absolute;
 	top: 8px;
 	left: 8px;
+	transform: rotate(90deg);
 }
 
+li {
+	list-style: none;
+}
 
+.plus-add {
+	position: absolute;
+	top: 12px;
+	right: 17px;
+}
 
