@@ -12,10 +12,12 @@ $green-light: #79bc8e;
 
 body {
 	font-family: 'Asap', sans-serif;
-	font-size: 15px;
-	padding: 0 20px;
+	font-size: 15px;	
 	background: #f8f8f6;
 	color: #92aa9d;
+}
+.container {
+	margin: 0 20px;
 }
 
 h2, h3, .h2, .h3 {
