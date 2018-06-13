@@ -5,6 +5,28 @@ a, a:hover, a:visited, a:focus {
 	}
 }
 
+
 $blue: #3f606f; 
 $grey: #d8d8d8;
 $green-light: #79bc8e;
+
+
+body {
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
+	padding: 0 20px;
+}
+
+h2, h3, .h2, .h3 {
+	font-weight: 700;
+}
+
+.arrow-back {
+	position : absolute;
+	top: 8px;
+	left: 8px;
+}
+
+
+
+
